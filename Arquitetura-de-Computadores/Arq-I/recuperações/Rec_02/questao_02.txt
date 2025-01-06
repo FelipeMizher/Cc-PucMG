@@ -1,0 +1,20 @@
+/*
+	821811
+	Felipe Rivetti Mizher
+	Questão 02:
+*/
+
+2a)
+   Da => (m = 0,1,2,7) = A+B+C . A+B+C' . A+B'+C . A'+B'+C'  
+   Db => (m = 0,4,5,7) = A+B+C . A'+B+C . A'+B+C' . A'+B'+C'
+
+b) 
+   Ja => (m = 0,1,2,4,5,6,7) = A+B+C . A+B+C' . A+B'+C . A'+B+C . A'+B+C' . A'+B'+C . A'+B'+C'   
+   Jb => (m = 0,2,3,4,5,6,7) = A+B+C . A+B'+C . A+B'+C' . A'+B+C . A'+B+C' . A'+B'+C . A'+B'+C'
+
+   Ka => (m = 0,1,2,3,4,6,7) = A+B+C . A+B+C' . A+B'+C . A+B'+C' . A'+B+C . A'+B'+C . A'+B'+C'   
+   Kb => (m = 0,1,2,3,4,5,6) = A+B+C . A+B+C' . A+B'+C . A+B'+C' . A'+B+C . A'+B+C' . A'+B'+C
+
+c) 
+   Ta => (m = 0,1,2,4,6,7) = A+B+C . A+B+C' . A+B'+C . A'+B+C . A'+B'+C . A'+B'+C' 
+   Tb => (m = 0,2,3,4,5,6) = A+B+C . A+B'+C . A+B'+C' . A'+B+C . A'+B+C' . A'+B'+C

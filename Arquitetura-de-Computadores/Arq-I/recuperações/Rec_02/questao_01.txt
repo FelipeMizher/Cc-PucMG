@@ -1,0 +1,20 @@
+/*
+	821811
+	Felipe Rivetti Mizher
+	Questão 01:
+*/
+
+1a)
+   Da => (m = 3,4,5,6) = a'bc + ab'c' + ab'c + abc'  
+   Db => (m = 1,2,3,6) = a'b'c + a'bc' + a'bc + abc'
+
+b) 
+   Ja => (m = 3) = a'bc   
+   Jb => (m = 1) = a'b'c
+
+   Ka => (m = 5) = ab'c   
+   Kb => (m = 7) = abc
+
+c) 
+   Ta => (m = 3,5) = a'bc + a'bc'  
+   Tb => (m = 1,7) = a'b'c + abc
