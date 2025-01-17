@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.title {
+    color: white;
+    padding: 40px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.footer div .compania { 
+    align-items: center; 
+    border-radius: 10px;  
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.container {
+    padding: 20px;
+    margin: 0;
+    align-items: center;    
+}
+
+.card-title {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    font-family: bold;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.carousel-item { 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.carousel-title {
+    color: red;
+    font-weight: bold;
+}
+
+.anuncio {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    align-items: end;
+    margin-top: 20px;
+    background-color: lightgray;
+    opacity: .8;
+}
+
+.preço {
+    color: red;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.carousel-title-coqueteleira {
+    color: black;
+    font-weight: bold;
+}
+
+.anuncio-coqueteleira {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    align-items: end;
+    margin-top: 20px;
+    background-color: lightgray;
+    opacity: .7;
+}
+
+.preço-coqueteleira {
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.new-list {
+    font-weight: bolder;
+    margin-left: 90px;
+}
+    
