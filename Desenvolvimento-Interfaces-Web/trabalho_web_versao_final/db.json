@@ -1,0 +1,71 @@
+{
+   "produtos": [
+    {
+      "id": 1,
+      "marca": "Naturovos",
+      "produto": "Albumina",
+      "preco": "R$ 50,00",
+      "descricao": "Nossa Albumina é um suplemento alimentar de alta qualidade, rico em proteínas de alta digestibilidade. Com sua composição de aminoácidos essenciais, a Albumina ajuda a aumentar a síntese de proteínas, promove o crescimento muscular e acelera a recuperação após o treino."
+    },
+    {
+      "id": 2,
+      "marca": "MAX TITANIUM",
+      "produto": "BCAA",
+      "preco": "R$ 40,00",
+      "descricao": "Maximize seus ganhos de treino com BCAA! Nós oferecemos a você a mais alta qualidade de BCAA em pó, para ajudá-lo a alcançar seus objetivos de treino mais rapidamente."
+    },
+    {
+      "id": 3,
+      "marca": "MAX TITANIUM",
+      "produto": "Glutamina",
+      "preco": "R$ 60,00",
+      "descricao": "Nossa Glutamina é um suplemento alimentar de alta qualidade, contendo uma mistura de aminoácidos que ajudam a promover a síntese de proteínas, reduzir a fadiga muscular e melhorar a recuperação após o treino."
+    },
+    {
+      "id": 4,
+      "marca": "Black Skull",
+      "produto": "Pré-Treino",
+      "preco": "R$ 60,00",
+      "descricao": "Nosso Pré-treino é uma fórmula avançada que ajuda a aumentar a resistência, melhorar o foco mental e maximizar os ganhos de treino. Com sua combinação de ingredientes de alta qualidade, incluindo cafeína, creatina e beta-alanina, nosso Pré-treino ajuda a impulsionar seu treino para o próximo nível."
+    },
+    {
+      "id": 5,
+      "marca": "Muvin",
+      "produto": "Straps",
+      "preco": "R$ 30,00",
+      "descricao": "Nossos Straps de Academia são projetados com materiais de alta qualidade e durabilidade, fornecendo um suporte extra para seus pulsos e ajudando a melhorar sua aderência durante o levantamento de peso. Com seu design confortável e ajustável, nossos Straps são ideais para qualquer pessoa que queira melhorar sua performance na academia."
+    },
+    {
+      "id": 6,
+      "marca": "Integralmédica",
+      "produto": "Termogênico",
+      "preco": "R$ 70,00",
+      "descricao": "Com sua fórmula exclusiva, nosso termogênico ajuda a aumentar a energia, melhorar a concentração e reduzir a fadiga durante o treino. Não perca mais tempo e adquira agora mesmo o nosso termogênico para turbinar seus resultados e atingir o corpo dos seus sonhos!"
+    }
+  ],
+  "produtos_navbar": [
+    {
+      "id": 1,
+      "marca": "MAX TITANIUM",
+      "produto": "Creatina",
+      "preco": "R$ 150,00",
+      "descricao": "Você quer levar seu treino para o próximo nível? A creatina é a resposta. Este suplemento natural pode ajudar a aumentar sua força, resistência e massa muscular, permitindo que você alcance seus objetivos de fitness mais rapidamente."
+    },
+    {
+      "id": 2,
+      "marca": "Dux",
+      "produto": "Whay concentrado",
+      "preco": "R$ 99,90",
+      "descricao": "O Whey Protein Concentrado é fácil de digerir e absorver, o que o torna uma opção ideal para quem deseja acelerar a recuperação muscular após o treino. Além disso, é uma fonte de proteína acessível e de alta qualidade que pode ajudá-lo a atingir suas metas de macronutrientes sem comprometer sua dieta."
+      
+    },
+    {
+     "id": 3,
+     "marca": "growth",
+     "produto": "Coqueteleira",
+     "preco": "R$ 29,99",
+     "descricao": "Procurando uma maneira fácil e conveniente de misturar seus suplementos de proteína em pó? A coqueteleira Growth é a resposta. Com sua grade de mistura exclusiva, você pode misturar seu suplemento de proteína em pó rapidamente e sem grumos."
+      
+    }
+  ]
+}

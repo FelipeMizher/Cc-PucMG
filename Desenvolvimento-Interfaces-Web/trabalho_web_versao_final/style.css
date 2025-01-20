@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.title {
+    color: white;
+    padding: 40px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.footer div .compania { 
+    align-items: center; 
+    border-radius: 10px;  
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 0px;
+    margin: 0;
+    align-items: center;    
+}
+
+.card-title {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    font-family: bold;
+    padding: 10px;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.carousel-item { 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.carousel-title {
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.anuncio {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    align-items: end;
+    margin-top: 20px;
+    background-color: lightgray;
+    opacity: .8;
+}
+
+.preço {
+    color: red;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.carousel-title-coqueteleira {
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.anuncio-coqueteleira {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    align-items: end;
+    margin-top: 20px;
+    background-color: lightgray;
+    opacity: .7;
+}
+
+.preço-coqueteleira {
+    color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.new-list {
+    font-weight: bolder;
+    margin-left: 90px;
+}
+
+    /*Barra de pesquisa*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+::selection{
+  color: #fff;
+  background: #664AFF;
+}
+
+.container_barra{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh;
+  max-width: 450px;
+  margin: 150px auto;
+  border-radius: 5px;
+}
+
+.container_barra h2{
+  color: #fff;
+}
+
+.container_barra .search{
+  background: #fff;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+}
+
+.search input{
+  height: 55px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 0 60px 0 20px;
+  font-size: 18px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+}
+
+.search.active input{
+  border-radius: 5px 5px 0 0;
+}
+
+.search .list{
+  padding: 0;
+  opacity: 0;
+  pointer-events: none;
+  max-height: 280px;
+  overflow-y: auto;
+}
+
+.search.active .list{
+  padding: 10px 8px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.list li{
+  list-style: none;
+  padding: 8px 12px;
+  display: none;
+  width: 100%;
+  cursor: default;
+  border-radius: 3px;
+}
+
+.search.active .list li{
+  display: block;
+}
+.list li:hover{
+  background: #efefef;
+}
+
+.search .icon{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  line-height: 55px;
+  font-size: 20px;
+  color: #644bff;
+  cursor: pointer;
+}
+    

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <title>Detalhes do Produto</title>
+
+  <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">  
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><nav class="navbar bg-body-tertiary">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="img/logo2.jpg" alt="Bootstrap" width="180" height="150">
+            </a>
+          </div>
+        </nav></a>
+        <p class="title">SuplementaFit</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html ">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Track order</a>
+            </li>
+          </ul>
+        </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f3f3f3;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .title {
+    color: white;
+    padding: 40px;
+    font-size: x-large;
+    font-weight: bold;
+    }
+
+    .container {
+    padding: 0;
+    margin: 0;
+    align-items: center;    
+    }
+
+    .detalhes {
+      text-align: center;
+      padding-top: 10px;
+    }
+    
+    #produtos {
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+    }
+    
+    .product-image {
+      width: 100%;
+      max-height: 400px;
+      object-fit: contain;
+      margin-bottom: 20px;
+    }
+
+    .product-marca {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .product-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .product-description {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .product-price {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .product-availability {
+      font-size: 16px;
+      color: #888888;
+      margin-bottom: 20px;
+    }
+    
+    .buy-now-button {
+      background-color: #f0c14b;
+      color: #111111;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .buy-now-button:hover {
+      background-color: #f7dfa5;
+    }
+  </style>
+
+  <h2 class="detalhes">Detalhes do produto</h2>
+
+</head>
+<body>
+  <div id="produtos">
+    <img class="product-image" src="img/albumina.jpg" alt="Product Image">
+    <h1 class="product-marca">Naturovos</h1>
+    <h1 class="product-title">Albumina</h1>
+    <p class="product-description">Nossa Albumina é um suplemento alimentar de alta qualidade, rico em proteínas de alta digestibilidade. Com sua composição de aminoácidos essenciais, a Albumina ajuda a aumentar a síntese de proteínas, promove o crescimento muscular e acelera a recuperação após o treino.</p>
+    <p class="product-price">R$ 50,00</p>
+    <p class="product-availability">Em estoque</p>
+    <button class="buy-now-button">Comprar Agora</button>
+  </div>
+
+  <script> 
+    fetch("db.json")
+  .then((response) => response.json())
+  .then((dados) => {
+    const targetId = 1; 
+
+    const targetObject = dados.produtos.find((produto) => produto.id === targetId);
+
+    if (targetObject) {
+      console.log("ID: " + targetObject.id);
+      console.log("Marca: " + targetObject.marca);
+      console.log("Produto: " + targetObject.produto);
+      console.log("Preço: " + targetObject.preco);
+      console.log("Descrição: " + targetObject.descricao);
+    } else {
+      console.log("Nenhum objeto encontrado com o ID: " + targetId);
+    }
+  })
+  </script>
+</body>
+</html>
