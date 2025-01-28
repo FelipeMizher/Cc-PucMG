@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "question": "Qual das frases abaixo está escrita corretamente em inglês?",
+      "answers": [
+        { "text": "I has a cat", "correct": false },
+        { "text": "You is my best friend", "correct": false },
+        { "text": "She have two dogs", "correct": true },
+        { "text": "They are at the park", "correct": false }
+      ]
+    },
+    {
+      "question": "Qual a tradução da palavra 'OLA' do Português para o Inglês?",
+      "answers": [
+        { "text": "Hello", "correct": true },
+        { "text": "How", "correct": false },
+        { "text": "Must", "correct": false },
+        { "text": "Green", "correct": false }
+      ]
+    },
+    {
+      "question": "Qual o verbo que preenche corretamente a lacuna na seguinte frase: 'I ____ to school every day.'",
+      "answers": [
+        { "text": "Goes", "correct": false },
+        { "text": "Going", "correct": true },
+        { "text": "Go", "correct": false },
+        { "text": "Went", "correct": false }
+      ]
+    },
+    {
+      "question": "Qual das frases abaixo está escrita corretamente em inglês?",
+      "answers": [
+        { "text": "She doesn't likes coffee", "correct": false },
+        { "text": "He have a lot of books", "correct": false },
+        { "text": "They were happy to see us", "correct": false },
+        { "text": "You goes to the gym every day", "correct": true }
+      ]
+    },
+    {
+      "question": "Qual o verbo que preenche corretamente a lacuna na seguinte frase: 'My brother ____ to the store yesterday.'",
+      "answers": [
+        { "text": "Go", "correct": true },
+        { "text": "Goes", "correct": false },
+        { "text": "Going", "correct": false },
+        { "text": "Went", "correct": false }
+      ]
+    },
+    {
+      "question": "Qual a tradução da palavra 'cachorro' para o inglês?",
+      "answers": [
+        { "text": "Cat", "correct": false },
+        { "text": "Dog", "correct": true },
+        { "text": "Bird", "correct": false },
+        { "text": "Fish", "correct": false }
+      ]
+    },
+    {
+      "question": "Qual a forma correta de escrever 'obrigado' em inglês?",
+      "answers": [
+        { "text": "Hello", "correct": false },
+        { "text": "Goodbye", "correct": false },
+        { "text": "Welcome", "correct": false },
+        { "text": "Thanks", "correct": true }
+      ]
+    }
+  ]
+}
