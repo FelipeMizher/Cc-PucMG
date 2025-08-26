@@ -1,5 +1,6 @@
-# algoritmos-estruturas-de-dados-I
+# banco-de-dados
 
-Arquivos da matéria de Algoritmos e Estruturas de Dados 1.
+Arquivos da matéria de Banco de Dados.
 
-2023/02
+2025/01
+
