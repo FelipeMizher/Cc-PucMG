@@ -1,5 +1,3 @@
-# algoritmos-estruturas-de-dados-I
+# algoritmos-estruturas-de-dados-II
 
-Arquivos da matéria de Algoritmos e Estruturas de Dados 1.
-
-2023/02
+Arquivos da matéria de Algoritmos e Estruturas de Dados 2.
