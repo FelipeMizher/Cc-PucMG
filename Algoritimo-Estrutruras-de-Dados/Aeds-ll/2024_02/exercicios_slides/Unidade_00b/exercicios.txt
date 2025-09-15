@@ -1,0 +1,48 @@
+// Felipe Rivetti Mizher - 821811
+// Exercicio 5
+
+    A função booleana recebe um carácter como parâmetro, declara um valor booleano como falso e declamara uma variável "v" para o valor inteiro do carácter passado. 
+    Depois entra no if para comparar se o valor inteiro do carácter passado como parâmetro é compatível com algum daqueles números, se sim a função retorna TRUE, se não for compatível retorna FALSE.
+
+
+// Exercicio 6
+
+    A função toUpper recebe um carácter e verifica se esta dentro de 'a' até 'Z', se estiver e este mesmo carácter for minúsculo, a função transforma ele para maiúsculo.
+    Já a função isVogal recebe este carácter, chama a função anteriormente explicada para transformar a letra em maiúscula e compara este carácter com as vogais maiúsculas,
+    se o carácter for alguma das vogais maiúsculas, a função retorna TRUE, caso contrario retornará FALSE.
+
+
+// Exercicio 7
+
+    A primeira função verifica se o carácter é uma letra ou algum outro outro caráctere, se for uma ltra retorna TRUE, se não retorna False.
+    A segunda função irá chamar a função para verificar se é uma letra, caso seja TRUE, irá chamar outra função para verificar se esta letra  é uma vogal, se retornar false, 
+    quer dizer que a função original para verificar se é uma consoante necessita da primeira chamada ser TRUE e a segunda chamada ser FALSE, assim a função isConsoante retornará TRUE.
+
+
+// Exercicio 8
+
+    Por mais que os dois faça as mesmas coisas, usando o método recursivo, o da esquerda acaba sendo mais fácil de ser interpretado 
+    pois quando a verificação está sendo igualada com FALSE é fica mais fácil de perceber do que quando se usa a negação daquela função.
+
+
+// Exercicio 9
+
+    Um código que é preciso prestar atenção nas partes em que se tem a pergunta se é NULL ou não, e logo em seguida tem a ligação "&&" que se a anterior for falsa já vai logo para o ELSE.
+    Usa o IF e o ELSE para verificar se existe o código e depois entra em um looping para subir na hierarquia, logo quando sai do looping ele retorna.
+
+
+// Exercicio 10
+
+    No primeiro ele recebe um valor como parâmetro e logo em seguida retorna o valor "i" e depois faz o decremento.
+    Já no segundo ele recebe um valor como parâmetro, faz o decremento e logo em seguida retorna o valor "i".
+
+
+// Exercicio 11
+
+    Irá entrar em um looping infinito e ir sempre incrementando os valores mesmo quando ocorrer o transbordamento.
+
+
+// Exercicio 12
+
+    O uso dos sinais de maiores e menores são para que ocorra o deslocamento de bit, o valor de X irá deslocar um bit para a esquerda que o 23 será multiplicado por 2, virando assim 46,
+    e o valor de Y terá um deslocamento para a direita que fará o valor de 23 seja dividido por 2, virando assim 11, pois a operação é feita com números inteiros.
