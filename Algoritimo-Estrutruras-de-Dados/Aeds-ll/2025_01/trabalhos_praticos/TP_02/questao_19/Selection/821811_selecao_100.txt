@@ -1,0 +1,1 @@
+Matrícula: 821811 	time de execução: 0.007 segundos 	Número de comparações: 4950	Número de movimentações: 285
