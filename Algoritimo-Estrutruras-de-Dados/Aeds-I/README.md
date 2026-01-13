@@ -1,6 +1,7 @@
 # 📘 Algoritmos e Estruturas de Dados I (AED I)
 
-Este diretório reúne os **materiais desenvolvidos na disciplina de Algoritmos e Estruturas de Dados I**, cursada no curso de **Ciência da Computação da PUC Minas**.
+Este diretório reúne os **materiais desenvolvidos na disciplina de Algoritmos e Estruturas de Dados I**, cursada no curso de **Ciência da Computação da PUC Minas**. Esta disciplina serve como base para o desenvolvimento do raciocínio lógico
+e para disciplinas futuras da área de algoritmos e estruturas de dados.
 
 ---
 
@@ -56,3 +57,4 @@ Os conteúdos estão organizados da seguinte forma:
 * Funções
 * Introdução a estruturas de dados
 * Análise básica de algoritmos
+
