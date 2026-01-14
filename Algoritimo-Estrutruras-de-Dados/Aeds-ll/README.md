@@ -29,8 +29,8 @@ Os conteúdos estão organizados principalmente por período/semestre:
 ## 🛠️ Linguagens e Ferramentas Utilizadas
 
 * **Linguagem C**
-* **Linguagem C++**
-* Compiladores padrão (GCC / G++)
+* **Linguagem Java**
+* Compiladores padrão (GCC / JAVAC)
 * Ambiente acadêmico da PUC Minas
 
 ---
@@ -53,3 +53,4 @@ Os conteúdos estão organizados principalmente por período/semestre:
 * Algumas soluções podem priorizar clareza em vez de máxima otimização
 * O objetivo principal é **documentar o processo de aprendizagem e evolução técnica**
   
+
