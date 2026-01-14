@@ -30,7 +30,7 @@ Os conteúdos estão organizados da seguinte forma:
   * Relacionamentos e organização das tabelas
 
   🔗 **Repositório do projeto:**  
-  [BT Gaming Store – Banco de Dados]([https://github.com/fulano/bt-gaming-store](https://github.com/arthurhtp/bt-gaming-store-app))
+  [BT Gaming Store – Banco de Dados]([https://github.com/arthurhtp/bt-gaming-store-app])
 
 ---
 
