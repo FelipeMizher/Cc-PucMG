@@ -30,7 +30,7 @@ Os conteúdos estão organizados da seguinte forma:
   * Relacionamentos e organização das tabelas
 
   🔗 **Repositório do projeto:**  
-  [BT Gaming Store – Banco de Dados](https://github.com/fulano/bt-gaming-store)
+  [BT Gaming Store – Banco de Dados]([https://github.com/fulano/bt-gaming-store](https://github.com/arthurhtp/bt-gaming-store-app))
 
 ---
 
@@ -60,3 +60,4 @@ Os conteúdos estão organizados da seguinte forma:
 * Os materiais refletem meu **nível de aprendizado ao longo da disciplina**
 * As atividades têm foco em **modelagem e compreensão dos conceitos**
 * O conteúdo é destinado exclusivamente a fins educacionais
+
