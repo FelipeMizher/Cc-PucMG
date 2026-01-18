@@ -1,6 +1,7 @@
 # 🧩 Trabalho Interdisciplinar I (TI I)
 
-Este diretório reúne os **materiais desenvolvidos na disciplina de Trabalho Interdisciplinar I**, cursada no curso de **Ciência da Computação da PUC Minas**. A disciplina teve como objetivo **integrar conhecimentos de diferentes áreas da Computação**, por meio do desenvolvimento de um projeto interdisciplinar ao longo do semestre.
+Este diretório reúne os **materiais desenvolvidos na disciplina de Trabalho Interdisciplinar I**, cursada no curso de **Ciência da Computação da PUC Minas**.
+A disciplina teve como objetivo **integrar conhecimentos de diferentes áreas da Computação**, por meio do desenvolvimento de um projeto interdisciplinar ao longo do semestre.
 
 ---
 
@@ -18,23 +19,29 @@ Este diretório reúne os **materiais desenvolvidos na disciplina de Trabalho In
 
 Os conteúdos estão organizados da seguinte forma:
 
-* **Sprints/**  
+* **Sprints/**
   Atividades desenvolvidas ao longo do semestre, organizadas em sprints, contendo:
+
   * Planejamento das atividades
   * Evolução do projeto
   * Entregas parciais
 
-* **Relatórios/**  
+* **Relatórios/**
   Documentos referentes às etapas do projeto, incluindo:
+
   * Relatórios parciais
   * Relatório final
   * Documentação do projeto
 
-* **Diagramas e Imagens**  
+* **Diagramas e Imagens**
   Materiais visuais utilizados para apoiar o desenvolvimento do projeto, como:
+
   * Diagramas conceituais
   * Protótipos de interfaces
   * Representações gráficas do sistema
+ 
+  * 🔗 **Repositório do projeto:**  
+    [Poligloty - TI I](https://github.com/ICEI-PUC-Minas-PMGCC-TI/ti-1-pmg-cc-t-20231-pessoas-para-aprender-e-treinar-idiomas)
 
 ---
 
