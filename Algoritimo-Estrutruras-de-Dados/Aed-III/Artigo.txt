@@ -1,0 +1,20 @@
+Algoritmo e Estruturas de Dados III
+Felipe Rivetti Mihzer - 821811
+Marcos André Silveira Kutova
+
+1.
+    Extendible Hashing for Concurrent Operations and Distributed Data
+
+2. 
+    Os autores identificaram limitações críticas no controle de concorrência em arquivos hash extensíveis, tanto em sistemas centralizados quanto distribuídos. Da para observar que a necessidade de garantir a consistência e a disponibilidade de dados durante operações ao mesmo tempo, inserção, exclusão e busca, resultava recorrentemente em bloqueios excessivos e ineficiência  do sistema. A adaptação para ambientes distribuídos agravou esse cenário, introduzindo desafios como a replicação de  diretórios e a comunicação entre processos sem memória compartilhada. Esses obstáculos motivaram a busca por novos protocolos de travamento, onde permitissem operações concorrentes e distribuição de dados com alto desempenho e integridade.
+
+3.
+    O trabalho de Carla Schlatter Ellis apresenta soluções algorítmicas para permitir operações concorrentes em arquivos  hash extensíveis, apresentando como uma alternativa viável às 
+árvores-B em bancos de dados dinâmicos. O estudo detalha a implementação de protocolos de bloqueio eficientes e pequenas alterações na estrutura de dados para facilitar o acesso simultâneo sem grandes gargalos. Além disso, a autora procura a adaptação dessas estruturas para ambientes distribuídos, dando destaque a estratégias para replicação de diretórios e manutenção da consistência. A pesquisa também aborda desafios críticos da distribuição, como a comunicação entre processos e a prevenção de deadlocks, sugerindo que as soluções de concorrência centralizada servem como base sólida para a arquitetura distribuída.
+
+4.
+    Os principais resultados apresentados no trabalho são:
+
+a) Soluções para Concorrência: A autora desenvolveu abordagens robustas para viabilizar operações concorrentes em arquivos hash extensíveis. Utilizando protocolos de bloqueio granular e modificações estratégicas na estrutura de dados, as soluções garantem que buscas, inserções e exclusões ocorram ao mesmo tempo, assegurando a serialização das operações sem comprometer a integridade da base de dados.
+
+b) Adaptação para Ambientes Distribuídos: A pesquisa estabeleceu uma metodologia para adaptar o hash extensível a bancos de dados distribuídos. A autora detalhou como gerenciar a replicação de diretórios e a comunicação entre processos independentes. O resultado fundamental foi demonstrar como manter a consistência do sistema mesmo permitindo atualizações assíncronas entre as cópias do diretório.
