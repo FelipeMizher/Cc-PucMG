@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "gtin": "7891027156423",
+    "nome": "Mouse Óptico Sem Fio",
+    "descricao": "Mouse preto conexão USB, 1600 DPI, pilha inclusa",
+    "imagem": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 2,
+    "gtin": "7894900011517",
+    "nome": "Refrigerante Cola 2L",
+    "descricao": "Garrafa PET 2 litros, sabor original",
+    "imagem": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 3,
+    "gtin": "7891991000833",
+    "nome": "Café Torrado e Moído 500g",
+    "descricao": "Café tradicional, embalagem a vácuo, torra média",
+    "imagem": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 4,
+    "gtin": "7898506460231",
+    "nome": "Cabo HDMI 2.0",
+    "descricao": "Cabo de vídeo 4K Ultra HD, 2 metros de comprimento",
+    "imagem": "https://images.unsplash.com/photo-1558494949-ef5209734623?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 5,
+    "gtin": "7897476666821",
+    "nome": "Caderno Pautado Universitário 10 Matérias",
+    "descricao": "Capa dura, 200 folhas, espiral preto",
+    "imagem": "https://images.unsplash.com/photo-1531346878377-a51e1dd498c5?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 6,
+    "gtin": "7896004001380",
+    "nome": "Caixa de Bombom Variados",
+    "descricao": "Caixa amarela 250g com sabores sortidos",
+    "imagem": "https://images.unsplash.com/photo-1549007994-cb92caebd54b?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 7,
+    "gtin": "7891035800129",
+    "nome": "Detergente Líquido Neutro",
+    "descricao": "Frasco 500ml, fórmula concentrada biodegradável",
+    "imagem": "https://images.unsplash.com/photo-1585670149967-b4f4da88cc9f?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 8,
+    "gtin": "7898956123019",
+    "nome": "Teclado Mecânico Gamer",
+    "descricao": "Teclado RGB switch blue, layout ABNT2",
+    "imagem": "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 9,
+    "gtin": "7891234560012",
+    "nome": "Fone de Ouvido Bluetooth",
+    "descricao": "Headphone over-ear com cancelamento de ruído ativo",
+    "imagem": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 10,
+    "gtin": "7895566778899",
+    "nome": "Tênis Esportivo Corrida",
+    "descricao": "Tênis vermelho com amortecimento em gel, tamanho 40",
+    "imagem": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 11,
+    "gtin": "7892233445566",
+    "nome": "Garrafa Térmica Inox 1L",
+    "descricao": "Mantém bebidas quentes ou frias por 12 horas",
+    "imagem": "https://images.unsplash.com/photo-1602143407151-01114192008e?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 12,
+    "gtin": "7899988776655",
+    "nome": "Smartwatch Fit",
+    "descricao": "Relógio inteligente com monitor cardíaco e pedômetro",
+    "imagem": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 13,
+    "gtin": "7891122334455",
+    "nome": "Ração Premium Cães 15kg",
+    "descricao": "Sabor frango e vegetais para raças médias",
+    "imagem": "https://images.unsplash.com/photo-1589924691195-41432c84c161?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 14,
+    "gtin": "7896655443322",
+    "nome": "Lâmpada LED Inteligente",
+    "descricao": "Lâmpada Wi-Fi RGB compatível com assistentes de voz",
+    "imagem": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&w=500&q=80"
+  },
+  {
+    "id": 15,
+    "gtin": "7893344556677",
+    "nome": "Mochila Impermeável Notebook",
+    "descricao": "Mochila preta com compartimento para laptop de 15 polegadas",
+    "imagem": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=500&q=80"
+  }
+]

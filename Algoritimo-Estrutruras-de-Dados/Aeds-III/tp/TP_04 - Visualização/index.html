@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PresenteFácil | Gestão de Produtos</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎁</text></svg>">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="app-layout">
+        <main class="main-content">
+            <header>
+                <div class="header-info">
+                    <h1>Gestão de Produtos</h1>
+                    <div class="header-meta">
+                        <div class="meta-item"><span class="meta-label">Instituição:</span> PUC MG</div>
+                        <div class="meta-item"><span class="meta-label">Disciplina:</span> AEDS III</div>
+                        <div class="meta-item"><span class="meta-label">Professor:</span> Marcos Kutova</div>
+                        <div class="meta-item">
+                            <span class="meta-label">Equipe:</span>
+                            <a href="https://github.com/DomynicBl" target="_blank" class="team-link">Domynic Barros</a>,
+                            <a href="https://github.com/FelipeMizher" target="_blank" class="team-link">Felipe
+                                Rivetti</a>,
+                            <a href="https://github.com/mioj0kt" target="_blank" class="team-link">Matheus Felipe</a>
+                        </div>
+                    </div>
+                </div>
+                <button id="btn-novo-produto" class="btn btn-primary">
+                    <span>+</span> Novo Produto
+                </button>
+            </header>
+
+            <section class="toolbar">
+                <div class="search-box">
+                    <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                    </svg>
+                    <input type="text" id="input-busca" placeholder="Buscar por GTIN, ID ou Nome...">
+                </div>
+                <div class="sort-box">
+                    <label>Ordenar:</label>
+                    <select id="select-ordenacao">
+                        <option value="id">ID (Criação)</option>
+                        <option value="nome">Nome (A-Z)</option>
+                        <option value="gtin">GTIN</option>
+                    </select>
+                </div>
+            </section>
+
+            <div class="table-container">
+                <div class="table-scroll-wrapper">
+                    <table id="tabela-produtos">
+                        <thead>
+                            <tr>
+                                <th width="20%">GTIN-13</th>
+                                <th width="35%">Produto</th>
+                                <th width="30%">Descrição</th>
+                                <th width="15%" class="text-center">Gerenciar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="empty-state" class="empty-state hidden">
+                    <p>Nenhum produto cadastrado.</p>
+                </div>
+            </div>
+        </main>
+
+        <div class="gutter" id="resizer"></div>
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Simulador de Arquivo</h2>
+                <p class="sidebar-desc">Visualize abaixo como os dados seriam estruturados fisicamente no disco.</p>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="json">JSON (Lógico)</button>
+                <button class="tab-btn" data-tab="hex">Binário (Físico)</button>
+            </div>
+
+            <div class="code-block-wrapper">
+                <pre id="json-viewer" class="code-content active">[]</pre>
+                <pre id="hex-viewer" class="code-content hidden"></pre>
+            </div>
+
+            <div class="sidebar-footer">
+                <input type="file" id="input-importar" accept=".json" style="display: none;">
+                <div class="sidebar-row">
+                    <button id="btn-download" class="btn btn-secondary btn-full" title="Baixar dados">⬇ Baixar</button>
+                    <button id="btn-importar" class="btn btn-secondary btn-full" title="Importar backup .json">⬆
+                        Importar (.json)</button>
+                </div>
+                <button id="btn-reset" class="btn btn-danger-outline btn-full" title="Limpar LocalStorage">🗑 Limpar
+                    Tudo</button>
+            </div>
+        </aside>
+    </div>
+
+    <div id="toast" class="toast hidden">
+        <div class="toast-icon">✓</div>
+        <span id="toast-msg">Sucesso!</span>
+    </div>
+
+    <div id="modal-produto" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-titulo">Adicionar Produto</h2>
+                <button class="btn-icon btn-fechar-modal">&times;</button>
+            </div>
+            <form id="form-produto">
+                <input type="hidden" id="produto-id">
+
+                <div class="form-group">
+                    <label for="produto-gtin">GTIN-13</label>
+                    <input type="text" id="produto-gtin" maxlength="13" placeholder="0000000000000" required>
+                    <small>Digite apenas números.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="produto-nome">Nome do Produto</label>
+                    <input type="text" id="produto-nome" placeholder="Ex: Cadeira Gamer" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="produto-imagem">URL da Imagem (Opcional)</label>
+                    <input type="url" id="produto-imagem" placeholder="https://exemplo.com/foto.jpg">
+                    <small>Cole o link da imagem. Se vazio, usará as iniciais.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="produto-descricao">Descrição</label>
+                    <textarea id="produto-descricao" rows="3" placeholder="Detalhes técnicos..." required></textarea>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary btn-cancelar-modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Salvar Produto</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="modal-visualizar" class="modal-overlay hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Detalhes do Produto</h2>
+                <button class="btn-icon btn-fechar-modal">&times;</button>
+            </div>
+
+            <div class="view-body">
+                <div class="view-image-container" id="view-img-container">
+                </div>
+
+                <div class="view-details">
+                    <div class="view-row">
+                        <label>GTIN-13</label>
+                        <span id="view-gtin" class="txt-gtin"></span>
+                    </div>
+                    <div class="view-row">
+                        <label>Nome</label>
+                        <h3 id="view-nome"></h3>
+                    </div>
+                    <div class="view-row">
+                        <label>Descrição</label>
+                        <p id="view-descricao"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-actions">
+                <button type="button" class="btn btn-secondary btn-cancelar-modal">Cancelar</button>
+                <div class="right-actions">
+                    <button type="button" id="btn-view-editar" class="btn btn-primary">Editar</button>
+                    <button type="button" id="btn-view-excluir" class="btn btn-danger-outline">Excluir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
