@@ -41,7 +41,7 @@ Os conteúdos estão organizados da seguinte forma:
 ## 🛠️ Linguagens e Ferramentas Utilizadas
 
 * **Linguagem Java**
-* **HTML, CSS e JavaScript** (no TP 4)
+* **HTML, CSS e JavaScript** (TP 4)
 * Compilador Java (JAVAC)
 * Ambiente acadêmico da PUC Minas
 
