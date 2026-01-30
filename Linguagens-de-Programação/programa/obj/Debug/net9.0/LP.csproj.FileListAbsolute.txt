@@ -1,0 +1,14 @@
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/bin/Debug/net9.0/LP
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/bin/Debug/net9.0/LP.deps.json
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/bin/Debug/net9.0/LP.runtimeconfig.json
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/bin/Debug/net9.0/LP.dll
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/bin/Debug/net9.0/LP.pdb
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.AssemblyInfoInputs.cache
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.AssemblyInfo.cs
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.csproj.CoreCompileInputs.cache
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.dll
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/refint/LP.dll
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.pdb
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/LP.genruntimeconfig.cache
+/Users/feliperivetti/Desktop/Cc_PucMG/LP/programa/obj/Debug/net9.0/ref/LP.dll
