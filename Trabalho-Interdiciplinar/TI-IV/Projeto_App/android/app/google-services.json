@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "854168609152",
+    "project_id": "eloescolar-63bb8",
+    "storage_bucket": "eloescolar-63bb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854168609152:android:e519e0506baae98c3ce165",
+        "android_client_info": {
+          "package_name": "com.example.elo_escolar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDPk4h-HkfYdFnTMS30p-7Qeh2IY6mwTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

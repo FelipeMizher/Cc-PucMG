@@ -1,0 +1,43 @@
+name: elo_escolar
+description: "Para doar com facildiade."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.5.0
+  firebase_analytics: ^12.1.3
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  google_maps_flutter: ^2.15.0
+  geolocator: ^14.0.2
+  geocoding: ^4.0.0
+  url_launcher: ^6.3.2
+  image_picker: ^1.2.1
+  shared_preferences: ^2.2.3
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  google_mlkit_image_labeling: ^0.14.0
+  http: ^1.6.0
+  # Carregar imagens offline
+  connectivity_plus: ^6.0.3
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
